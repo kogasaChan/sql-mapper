@@ -1,0 +1,12 @@
+<configuration>
+    <dataSource>
+        <driver>com.mysql.cj.jdbc.Driver</driver>
+        <url>jdbc:mysql://localhost:3306/mybatis_demo</url>
+        <username>root</username>
+        <password>123456</password>
+    </dataSource>
+
+    <mappers>
+        <mapper resource="/UserMapper.xml" />
+    </mappers>
+</configuration>
